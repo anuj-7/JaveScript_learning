@@ -10,6 +10,4 @@ var reverseString = function (String0) {
     }
     console.log(reverseStr);
 }
-reverseString("Hard work always pay back.")
-console.log(`---------------------------------------------------------------------------------------------------`);
-reverseString("Soon i will be IT angular champ")
+z

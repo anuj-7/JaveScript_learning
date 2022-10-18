@@ -1,5 +1,4 @@
-// var givenString = "Good Morning IT Champs";
-// var smallstr = givenString.toLowerCase();
+
 console.log(`================================================ Q1 ================================================`);
 
 
@@ -11,7 +10,7 @@ for (let index = 0; index < Char; index++) {
     var charr = givenString.charAt(index);
     var vowels = "aeiou";
     var result = vowels.includes(charr);
-    if (result == true) {
+    if (result) {
         count++;
     }
 }
