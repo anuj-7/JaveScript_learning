@@ -10,7 +10,7 @@ let person = {
         city: "Pune",
         state: "MH"
     },
-    eat:function(){
+    eat: function(){
         console.log(`I am vegetarian.`);
     },
     details: function () { 
@@ -19,6 +19,11 @@ let person = {
 }
 
 console.log(Object.entries(person));
+console.log("=========== in operator================");
+let isAvailable = "fullName" in person;
+console.log(isAvailable);
+console.log("city" in person);
+console.log("===========================");
 
 
 let pDetails = person.details();
