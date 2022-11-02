@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Session storage </title>
+</head>
+<body>
+<h3> Understanding Session storage. </h3>
+
+    <script>
+        console.log(`--------Session Storage --------------`);
+       window.sessionStorage.setItem("sachin", "Mumbai");
+       window.sessionStorage.setItem("Anu", "Sangola");
+       window.sessionStorage.setItem("Imran", "Pune");
+       window.sessionStorage.setItem("Kashi", "Pandharpur");
+       console.log(`1.1 Session storage length before - ${window.sessionStorage.length}`);
+    console.log(`1.2 Value of key "Anu" by using getItem - ${window.sessionStorage.getItem("Anu")}`);
+
+    window.sessionStorage.clear()
+    console.log(`1.3 Session storage length After clear - ${window.sessionStorage.length}`);
+
+
+    </script>
+</body>
+</html>

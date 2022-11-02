@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Local storage </title>
+</head>
+<body>
+<h3> Understanding Local storage. </h3>
+
+    <script>
+        console.log(`--------Local Storage --------------`);
+       window.localStorage.setItem("01", "Anand");
+       window.localStorage.setItem("02", "Rahul");
+       window.localStorage.setItem("03", "Tina");
+       window.localStorage.setItem("04", "Riya");
+       console.log(`1.1 Local storage length before - ${window.localStorage.length}`);
+    console.log(`1.2 Value of key "02" by using getItem - ${window.localStorage.getItem("02")}`);
+
+    window.localStorage.clear()
+    console.log(`1.3 local storage length After clear - ${window.localStorage.length}`);
+
+
+    </script>
+</body>
+</html>
